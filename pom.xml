@@ -382,23 +382,9 @@
             </plugin>
         </plugins>
     </build>
-    <reporting>
-        <plugins>
 
-            <!--  integrate maven-cobertura-plugin to project site  -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${cobertura.version}</version>
-                <configuration>
-                    <formats>
-                        <format>html</format>
-                    </formats>
-                    <check/>
-                </configuration>
-            </plugin>
-        </plugins>
-    </reporting>
+    
+    
     <profiles>
 		<profile>
 			<id>bower-install</id>
